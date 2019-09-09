@@ -11,10 +11,10 @@ class User {
 
   save() {
     const db = getDb();
-    return db.collection('users').inserOne(this);
+    return db.collection('users').insertOne(this);
   }
 
-  static findById(userId) {
+  static findByPk(userId) {
     const db = getDb();
     return db
     .collection('users')
