@@ -3,7 +3,7 @@ const path = require('path');
 const express = require('express');
 
 const adminController = require('../controllers/admin');
-const isAuth = require('../middewear/is-auth');
+const isAuth = require('../middeware/is-auth');
 
 const router = express.Router();
 
