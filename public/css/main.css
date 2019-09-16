@@ -232,19 +232,20 @@ form {
   color: white;
 }
 
-.user-message { 
+.user-message {
   margin: auto;
   width: 90%;
-  border: 1px solid blue;
-  padding: 1rem;
-  border-radius: 3px; 
-  background: rgb(134, 134, 221);
+  border: 1px solid #4771fa;
+  padding: 0.5rem;
+  border-radius: 3px;
+  background: #b9c9ff;
   text-align: center;
 }
 
 .user-message--error {
   border-color: red;
-  background-color: rgb(207, 123, 123);
+  background: rgb(255, 176, 176);
+  color: red;
 }
 
 @media (min-width: 768px) {
