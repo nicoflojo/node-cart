@@ -1,5 +1,5 @@
 const crypto = require('crypto');
-const keys = require('./keys');
+const keys = require('../keys');
 
 const bcrypt = require('bcryptjs');
 const nodemailer = require('nodemailer');
